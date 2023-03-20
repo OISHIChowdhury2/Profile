@@ -21,6 +21,7 @@ import {
   cert,
   hacker,
   bcolbd,
+  mobile,
 } from "../assets";
 
 export const navLinks = [
@@ -57,6 +58,10 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "BlockChain",
+    icon: mobile,
   },
   {
     title: "Resercher",

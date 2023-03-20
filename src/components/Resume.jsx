@@ -39,4 +39,4 @@ const Resume = () => {
   );
 };
 
-export default SectionWrapper(Resume, "Resume");
+export default SectionWrapper(Resume, "resume");
