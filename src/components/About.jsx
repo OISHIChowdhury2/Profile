@@ -6,6 +6,8 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import oishi from "../assets/oishi.jpg";
+import Resume from "../pages/Resume";
+import { Link } from 'react-router-dom'
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -63,6 +65,8 @@ const About = () => {
       
       <div class="w-full lg:w-1/2 px-2">
          <div class="text-grey-dark flex items-center justify-center">
+          {/* <a href="Resume">R</a> */}
+          {/* <button><Link to='../pages/Resume' target='_blank'> Click Me  </Link></button> */}
          <img
               src={oishi}
               // alt='web-development'

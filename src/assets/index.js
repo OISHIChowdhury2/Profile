@@ -19,19 +19,19 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+// import threejs from "./tech/threejs.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import era from "./company/era.png"
 import oishi from "./oishi.jpg"
-
+import linkin from "./linkin.png"
 import dekko from "./company/dekko.png"
 
 import bcolbd from "./certificat/bcolbd.jpg"
@@ -73,6 +73,7 @@ export {
   jobit,
   tripguide,
   era,
+  linkin,
   oishi,
   dekko
 };

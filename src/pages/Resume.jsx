@@ -1,12 +1,12 @@
 
-
 import { styles } from "../styles";
 
+// import { EarthCanvas } from "../components/canvas";
 
 const Resume = () => {
   return (
     <section className={`relative w-full h-screen mx-auto `}>
-  <div>Hi</div>
+  <label>hi</label>
 
 
     </section>

@@ -22,6 +22,7 @@ import {
   hacker,
   bcolbd,
   mobile,
+  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -33,10 +34,10 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
-  {
-    id: "Resume",
-    title: "Resume",
-  },
+  // {
+  //   id: "Resume",
+  //   title: "Resume",
+  // },
   {
     id: "achievement",
     title: "Achievement",
@@ -44,10 +45,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
-
-
-  
+  },  
 ];
 
 const services = [
@@ -106,10 +104,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
   {
     name: "git",
     icon: git,
@@ -138,19 +136,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Jr Programmer",
     company_name: "Dekko Lagecy group",
@@ -160,8 +145,7 @@ const experiences = [
     points: [
       "Developing and maintaining web applications using Sprint boot, Anguler and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
+      ],
   },
   // {
   //   title: "Full stack Developer",
@@ -208,7 +192,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -259,4 +243,12 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const icons = [
+  {
+    
+    source_code_link: "https://www.youtube.com/watch?v=orEfrYazBSo",
+    
+  }
+]
+
+export { services,icons, technologies, experiences, testimonials, projects };

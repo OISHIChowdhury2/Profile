@@ -6,8 +6,10 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { github } from "../assets";
+import { linkin } from "../assets"
 
-const Contact = () => {
+const Contact = ({ image, source_code_link }) => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -77,6 +79,19 @@ const Contact = () => {
         <p className={styles.sectionSubText2}>
           Email: oishichowdhury2@gmai.com
         </p>
+        <div
+          onClick={() => window.open("https://www.linkedin.com/in/oishi-chowdhury-589754186/")}
+          className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+        >
+
+          <img
+            src={linkin}
+            alt='source code'
+            className='w-10 h-10 object-contain'
+          />
+
+        </div>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}

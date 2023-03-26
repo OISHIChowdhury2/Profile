@@ -8,12 +8,14 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-// import resume from "../components/Resume"
+import Resume from "./Resume";
+// import Resume from "../components/Resume"
 export {
   Hero,
   Navbar,
   About,
   Tech,
+  Resume,
   Experience,
   Works,
   Feedbacks,
@@ -23,6 +25,4 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  // resume
-
 };
